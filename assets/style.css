@@ -95,7 +95,7 @@ margin-top:275px;
 .result-section{
     float:right;
     background: #f0f0f0;
-    width: 300px;
+    width: 420px;
     border-radius: 20px;
     text-align: right;
     height: 47px;
@@ -162,6 +162,8 @@ text-decoration: none;
         font-size: 1.2em;
     }
     .result-section{
+        width: 85%;
+        font-size: 14px;
         text-align: center;
         float: none;
         align-items: center;
@@ -170,8 +172,17 @@ text-decoration: none;
     .url-input:focus{
         width:85vw;
     }
+    .footer{
+        text-align: center;
+        margin:auto;
+        position: initial;
+        margin-top:10%;
+    }
     .form-section{
-        height: 90vh;
+        height: 100vh;
+        width: 100vw;
+        border-radius: 0;
+        margin: 0;
     }
     #main-content h2{
         font-size: 2em;
