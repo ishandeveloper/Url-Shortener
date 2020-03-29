@@ -34,7 +34,9 @@ module.exports = (app) => {
 
 
     const checkIfShortIdExists = (db, code) => db.collection('shortenedURLs')
-    .findOne({ short_id: code });
+        .findOne({
+            short_id: code
+        });
 
 
 
@@ -79,12 +81,14 @@ module.exports = (app) => {
 
     app.get('/:short_id', (req, res) => {
         const shortId = req.params.short_id;
-        const { db } = req.app.locals;
+        const {
+            db
+        } = req.app.locals;
         checkIfShortIdExists(db, shortId)
-        .then(doc => {
-        if (doc === null) return res.send('Uh oh. We could not find a link at that URL');
-            res.redirect(doc.original_url)
+            .then(doc => {
+                if (doc === null) return res.send('Uh oh. We could not find a link at that URL');
+                res.redirect(doc.original_url)
             }).catch(console.error);
-      });
-      
+    });
+
 };
