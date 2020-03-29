@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const mongo=require('mongodb');
 const UrlShorten = mongoose.model("UrlShorten");
 const validUrl = require("valid-url");
 const shortid = require("shortid");
@@ -7,7 +8,10 @@ const errorUrl = 'http://localhost/error'
 
 module.exports = (app) => {
 
-
+app.get("/s/:url",(req,res)=>{
+    console.log(req.params.url);
+    res.end("Hi");
+});
 
     //GET API for redirecting to Original URL
     app.get("/api/item/:code", async (req, res) => {
