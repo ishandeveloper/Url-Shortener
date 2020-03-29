@@ -1,0 +1,2 @@
+views/*.ejs linguist-vendored
+assets/*.css linguist-vendored
