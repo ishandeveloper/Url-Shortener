@@ -28,6 +28,6 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.15",
     "nanoid": "^3.0.1",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.4"
   }
 }
