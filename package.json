@@ -24,7 +24,7 @@
   "homepage": "https://github.com/ishandeveloper/Url-Shortener#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "ejs": "^3.1.3",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "mongoose": "^5.9.22",
     "nanoid": "^3.1.9",
