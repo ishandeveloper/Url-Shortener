@@ -2,7 +2,7 @@
 Tired of sending those long urls to your friends? <br>
 Try this! A custom url shortener service built with node.js
 
-<pre><a href="http://idevshort.herokuapp.com/">VIEW LIVE DEMO</a></pre>
+<pre><a href="http://links.ishandeveloper.com/">VIEW LIVE DEMO</a></pre>
 
 ##### Screenshots
   #### [Desktop]
@@ -14,10 +14,10 @@ Try this! A custom url shortener service built with node.js
   
 ## Examples
 Click Below To Go To Google
-<pre><a href="https://idevshort.herokuapp.com/ziyR2DN">https://idevshort.herokuapp.com/ziyR2DN</a></pre>
+<pre><a href="http://links.ishandeveloper.com/ziyR2DN">http://links.ishandeveloper.com/ziyR2DN</a></pre>
 
 Click Below To Go To Wikipedia
-<pre><a href="https://idevshort.herokuapp.com/aFnDckw">https://idevshort.herokuapp.com/aFnDckw</a></pre>
+<pre><a href="http://links.ishandeveloper.com/aFnDckw">http://idevshort.herokuapp.com/aFnDckw</a></pre>
 
 ## Dependencies
 
